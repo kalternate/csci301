@@ -1,0 +1,22 @@
+#lang racket
+
+(equal? '(hi there) '(hi there))
+(eqv? '(hi there) '(hi there))
+;;(= '(hi there) '(hi there)) ;; yes, this will give an error
+(equal? '(hi there) '(bye now))
+(eqv? '(hi there) '(bye now))
+(equal? 3 3)
+(eqv? 3 3)
+(= 3 3)
+(equal? 3 (+ 2 1))
+(eqv? 3 (+ 2 1))
+(= 3 (+ 2 1))
+(equal? 3 3.0)
+(eqv? 3 3.0)
+(= 3 3.0)
+(equal? 3 (/ 6 2))
+(eqv? 3 (/ 6 2))
+(= 3 (/ 6 2))
+(equal? -1/2 -0.5)
+(eqv? -1/2 -0.5)
+(= -1/2 -0.5)

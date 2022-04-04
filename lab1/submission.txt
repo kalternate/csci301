@@ -1,0 +1,100 @@
+## Part Two
+
+1. 
+    car returns the first element in the argument. 
+    cdr returns all but the first element in the argument. 
+    The quote mark is used to make the provided value a literal, in this case a literal set.
+
+2.
+    (car '(x y z m))
+    (car (cdr '(y x z m)))
+    (car (cdr (cdr (cdr '(y z m x)))))
+    (car (car (cdr '((y) (x) (z) (m)))))
+    (car (cdr (car (cdr '((y z) (m x))))))
+
+3. 
+
+    '(3 1 2)
+    '((1 5) 2 3)
+    '(3 (1 2))
+    '((1 5) (2 3))
+    '(1 2 3)
+    '(1 5 2 3)
+    '(x 1 2)
+    '(1 2 3 (4 5))
+
+    cons adds the first argument to the start of the list in the second argument. 
+    list puts all the arguments into one list. 
+    append combines two lists together.
+
+4. 
+
+    3
+    '(c b a)
+    '(a b c)
+    '(b c)
+    '(c)
+    #f
+
+    length returns the number of elements in the list.
+    reverse swaps the order of all the elements in the list.
+    member returns a sublist starting at the provided element.
+
+## Part Four
+
+1. 
+
+    #t
+    #f
+    #f
+    #f
+    #t
+    #t
+    #t
+    #t
+    #t
+    #t
+    #f
+    #f
+    #t
+    #t
+    #t
+    #t
+    #f
+    #f
+    #t
+
+    equal is for lists, eqv is for integers, = is for floats
+
+3. 
+
+    18
+    12
+    11
+
+    cond looks through every element and if the first argument is true, it returns the second. else seems to be an alias for true in this case.
+
+## Part Five
+
+1. 
+    4
+
+2. 
+    No result both times, I think it does serve the same purpose though.
+
+3.
+
+    6
+
+    The pointer to the function another-add-one is moved to point to the same place at add-one.
+
+    add-one --> x + 1 <-- another-add-one
+
+4. 
+
+    a is 2
+    b is 3
+    c is 4
+    (strange 4) is 7
+
+    The let function did not override the existing defines.
