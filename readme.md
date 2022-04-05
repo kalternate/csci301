@@ -106,7 +106,15 @@
     * `A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)`
     * `A ∩ (B ∪ C) = (A ∪ B) ∪ (A ∩ C)`
 
+## Logic
 
+### Statement
+* A **Statement** is a declarative sentence; a sentence which attempts to state a fact as opposed to a question, command, exclamation 
+* The **Truth Value** of a statement is whether the statement is true or false
+
+### Conditional Statement
+* If `P → Q`, and `P` is true, then that **Implies** `Q` is also true
+* However, `Q` can be still be true even if `P` is false
 
 
 
