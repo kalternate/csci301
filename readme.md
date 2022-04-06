@@ -112,9 +112,10 @@
 * A **Statement** is a declarative sentence; a sentence which attempts to state a fact as opposed to a question, command, exclamation 
 * The **Truth Value** of a statement is whether the statement is true or false
 
-### Conditional Statement
+### Implication
 * If `P → Q`, and `P` is true, then that **Implies** `Q` is also true
 * However, `Q` can be still be true even if `P` is false
-
+* The **Converse** of `P → Q` is `Q → P`
+* A **Bi-Conditional Statement** is an implication statement where the converse is also true
 
 
