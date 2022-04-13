@@ -123,3 +123,9 @@
 * The **Universal Quantifier**, noted as `∀`, means for all
 * The **Existential Quantifier**, noted as `∃`, means for at least one 
 
+
+### Proof Terminology
+* A statement that has been proven to be always true is called a **Theorem**
+* A statement that is true but not as significant is called a **Proposition**
+* A **Lemma** is a theorem whose main purpose is to help prove another theorem
+* A **Corollary** is a theorem which is a direct result of another theorem
