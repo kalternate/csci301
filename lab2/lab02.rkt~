@@ -1,0 +1,10 @@
+#lang racket
+
+(define (gen-list start end)
+  (if (<= start end)
+       (append (list start) (gen-list (+ 1 start) end))
+      '() 
+       )
+   )
+
+(gen-list 1 5)
