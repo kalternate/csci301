@@ -118,4 +118,8 @@
 * The **Converse** of `P → Q` is `Q → P`
 * A **Bi-Conditional Statement** is an implication statement where the converse is also true
 
+### Quantifiers
+
+* The **Universal Quantifier**, noted as `∀`, means for all
+* The **Existential Quantifier**, noted as `∃`, means for at least one 
 
